@@ -9,7 +9,7 @@ var pokemonPath = path.join(__dirname, 'data', 'pokemon');
 var speciesPath = path.join(__dirname, 'data', 'species');
 
 var pokemonFiles = fs.readdirSync(pokemonPath).map(p => path.join(pokemonPath, p));
-var speciesFiles = fs.readdirSync(speciesPath).map(p => path.join(pokemonPath, p));
+var speciesFiles = fs.readdirSync(speciesPath).map(p => path.join(speciesPath, p));
 
 var pokemon = pokemonFiles.map(require);
 var species = speciesFiles.map(require);
