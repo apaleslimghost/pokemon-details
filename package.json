@@ -1,10 +1,9 @@
 {
   "name": "pokemon-details",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quarterto/pokemon-details.git"
